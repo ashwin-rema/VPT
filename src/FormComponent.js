@@ -31,6 +31,7 @@ export default class FormComponent extends React.Component{
                         <Label for="Year">ClassYear</Label>
                         {' '}
                         <Input  type="Year" name="Year" id="Year" placeholder="Year"  bsSize="lg" />
+                        {' '}
                         <Label for="School">School</Label>
                         {' '}
                         <Input  type="School" name="School" id="School" placeholder="School"  bsSize="lg" />
@@ -51,15 +52,17 @@ export default class FormComponent extends React.Component{
                         <Input  type="Street2" name="Street2" id="Street2" placeholder="Street2"  bsSize="lg" />
                     </FormGroup>
                     <FormGroup>
-                        <Label for="Country">Country</Label>
+                        <Label for="City">City</Label>
                         {' '}
-                        <Input  type="Country" name="Country" id="Country" placeholder="Country"  bsSize="lg" />
-                        <Label for="Country">Country</Label>
+                        <Input  type="City" name="City" id="City" placeholder="City"  bsSize="lg" />
                         {' '}
-                        <Input  type="Country" name="Country" id="Country" placeholder="Country"  bsSize="lg" />
-                        <Label for="Country">Country</Label>
+                        <Label for="State">State</Label>
                         {' '}
-                        <Input  type="Country" name="Country" id="Country" placeholder="Country"  bsSize="lg" />
+                        <Input  type="State" name="State" id="State" placeholder="State"  bsSize="lg" />
+                        {' '}
+                        <Label for="ZIP">ZIP Code</Label>
+                        {' '}
+                        <Input  type="ZIP" name="ZIP" id="Country" placeholder="ZIP"  bsSize="lg" />
                     </FormGroup>
                 </Form>
             </div>
